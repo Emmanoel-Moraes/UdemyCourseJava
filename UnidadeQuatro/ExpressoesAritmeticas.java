@@ -1,4 +1,4 @@
-// ExpressoesNumericas.java
+// ExpressoesAritmeticas.java
 // Demonstra as expressões aritméticas na linguagem java realizando algumas operações matemática
 
 import java.util.Locale; // utilizar padrão brasileiro de idioma e símbolos
