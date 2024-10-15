@@ -13,11 +13,12 @@ public class ModificaPadraoDeExibicaoInsercaoDeDados {
     // inicio da execução do programa
     public static void main(String [] args){
 
+        //Habilita padrão US no programa
+        Locale.setDefault(Locale.US);
 
         // cria objeto Scanner e habilita a entrada de dados via janela prompt
         Scanner sc = new Scanner(System.in);
-        // Define o locale do Scanner
-        sc.useLocale(Locale.US);
+
 
         double numero; // variável numero é criada
 
@@ -29,10 +30,9 @@ public class ModificaPadraoDeExibicaoInsercaoDeDados {
         // exibe o número no padrão dos Estados Unidos
         System.out.println("O valor inserido de acordo com o padrão US foi: " + numero);
 
-
         sc.close(); // encerra objeto Scanner
 
-
+        
     } // fim da main
 
 } // fim da classe ModificaPadraoDeExibicaoInsercaoDeDados
