@@ -4,20 +4,24 @@
 
 // Estrutura condicional é uma estrutura de controle que permite que um bloco de comando seja executado mediante uma condição
 
-// Estrutura simples: if ( condição )
-//                    {
-//                          código
-                    //}
+/*
 
-// Estrutura composta: if ( condição )
-//                    {
-//                          código 1
-                    //}
-//                     else
-//                     {
-//                          condição 2
-//                     }
+Estrutura simples:
+if ( condição )
+    {
+       código
+    }
 
+Estrutura composta:
+if ( condição )
+       {
+       código 1
+       }
+else
+       {
+       condição 2
+       }
+*/
 // O programa utiliza estrutura condicional para definir qual mensagem será exibida na tela de acordo com  hora inserida pelo usuário
 
 
@@ -41,6 +45,8 @@ public class EstruturaCondicional {
             System.out.println("Boa tarde!");
 
             else System.out.println("Boa noite");
+
+        sc.close(); // fecha objeto scanner
 
     } // fim d main
 
