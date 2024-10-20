@@ -1,6 +1,6 @@
 //TestaNegativo.java
 
-//
+// Lê um número, verifica se é negativo ou não negativo e exibe o resultado
 
 import java.util.Scanner; // Utiliza Scanner para receber dados via prompt
 
