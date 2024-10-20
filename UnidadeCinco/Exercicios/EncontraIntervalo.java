@@ -1,6 +1,6 @@
 // EncontraIntervalo.java
 
-// Lê um número qualquer e informa o intervalo que ele pertence. Caso não seja encontrado, exibe a mensagem "Fora de intervalo"
+// Lê um número qualquer, informa o intervalo que ele pertence. Caso não seja encontrado, exibe a mensagem "Fora de intervalo"
 
 
 // Utiliza Scanner
