@@ -3,7 +3,7 @@
 // Demontrando  funcionamento da estrura de repetição while
 
 
-import java.util.Scanner;
+import java.util.Scanner; // Utiliza Scanner
 
 
 public class EstruturaWhile {
