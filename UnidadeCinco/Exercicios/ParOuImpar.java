@@ -18,7 +18,7 @@ public class ParOuImpar {
         // Exibe o resultado do teste  de paridade do numero
         System.out.println((numero % 2 == 0) ? "PAR" : "NEGATIVO");
 
-        sc.close();
+        sc.close(); // finaliza scanner
 
     } // fim da main
 
