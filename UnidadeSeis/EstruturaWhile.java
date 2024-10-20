@@ -22,6 +22,8 @@ public class EstruturaWhile {
             num = sc.nextInt(); // Lê número atribui a num
         }
 
+        sc.close(); // encerra objeto scanner
+
     } // fim da main
 
 } // fim da classe EstruturaWhile
