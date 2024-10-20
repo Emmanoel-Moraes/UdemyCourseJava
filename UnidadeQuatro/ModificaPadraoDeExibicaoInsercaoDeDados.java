@@ -32,7 +32,7 @@ public class ModificaPadraoDeExibicaoInsercaoDeDados {
 
         sc.close(); // encerra objeto Scanner
 
-        
+
     } // fim da main
 
 } // fim da classe ModificaPadraoDeExibicaoInsercaoDeDados
