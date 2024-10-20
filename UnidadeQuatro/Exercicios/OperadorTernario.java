@@ -1,6 +1,6 @@
 // OperadorTernario.java
 
-// Demonstra aplicação do operador ternário na resolução de um problema
+// Demonstra aplicação do operador ternário na resolução de um problema.
 
 
 public class OperadorTernario {
