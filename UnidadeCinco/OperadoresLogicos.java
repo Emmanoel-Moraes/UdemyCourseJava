@@ -1,6 +1,6 @@
 // OperadoresLogicos.java
 
-// Exibe os 3 operadres lógicos em java ( E, OU e NÃO)
+// Exibe os 3 operadores lógicos em java ( E, OU e NÃO)
 
 import java.util.Scanner;
 
@@ -47,6 +47,8 @@ public class OperadoresLogicos {
         System.out.println("!A  resultado:");
         System.out.println("F   V");
         System.out.println("V   F");
+
+        sc.close(); // fecha objeto scanner
 
     } // fim da main
 
