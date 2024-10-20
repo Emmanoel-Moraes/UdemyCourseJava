@@ -14,6 +14,7 @@ public class OperadorTernario {
                 // condição ? valor se verdadeiro : valor se falso
         desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
 
+        // Exibe desconto
         System.out.println(desconto);
 
     } // fim da main
