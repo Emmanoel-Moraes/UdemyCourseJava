@@ -15,10 +15,9 @@ public class TestaNegativo {
 
         int inteiro = sc.nextInt(); // Lê um número e atribui a inteiro
 
-
         System.out.println((inteiro < 0 ? "NEGATIVO" : "NÃO NEGATIVO"));
 
-        sc.close();
+        sc.close(); // finaliza scanner
 
     } // fim da main
 
