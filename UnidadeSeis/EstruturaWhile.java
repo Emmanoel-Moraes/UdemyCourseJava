@@ -15,12 +15,15 @@ public class EstruturaWhile {
         Scanner sc = new Scanner(System.in);
 
         // Lê número inserido via prompt de comando e atribui a num
-        int num = sc.nextInt();
+        int num = sc.nextInt(), soma = 0;
 
         // Enquanto o número inserido não for zero
         while (num != 0) {
             num = sc.nextInt(); // Lê número atribui a num
+            soma += num;
         }
+
+        System.out.println(soma);
 
         sc.close(); // encerra objeto scanner
 
