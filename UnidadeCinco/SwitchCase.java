@@ -1,5 +1,5 @@
 // SwitchCase.java
-//
+// Lê um inteiro e exibe uma mensagem de acordo com o valor inserido por meio do Switch Case
 
 import java.util.Scanner; // Utiliza Scanner para ler dados via prompt
 
@@ -28,7 +28,7 @@ public class SwitchCase {
             default: System.out.println("Valor fora do padrão");
         }
 
-        sc.close();
+        sc.close(); // encerra objeto Scanner
 
     } // fim da main
 
