@@ -51,6 +51,8 @@ public class VerificaCoordenadas {
             }
         }
 
+        sc.close(); // encerra objeto scanner
+
     } // fim da main
 
 } // finaliza classe VerificaCoordenadas
