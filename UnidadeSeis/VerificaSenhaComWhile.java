@@ -25,6 +25,8 @@ public class VerificaSenhaComWhile {
 
         //Senha correta digitada
         System.out.println("Acesso permitido");
+        
+        sc.close(); // encerra objeto scanner
 
     } // fim da main
 
