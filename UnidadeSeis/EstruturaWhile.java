@@ -23,6 +23,7 @@ public class EstruturaWhile {
             soma += num;
         }
 
+        // Exibe total
         System.out.println(soma);
 
         sc.close(); // encerra objeto scanner
