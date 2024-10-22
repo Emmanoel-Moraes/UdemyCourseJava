@@ -40,7 +40,7 @@ public class VerificaNumero {
         System.out.println(intervaloOut + " out");
 
         sc.close(); // encerra objeto Scanner
-        
+
     } // fim da main
 
 } // fim da classe VerificaNumero
