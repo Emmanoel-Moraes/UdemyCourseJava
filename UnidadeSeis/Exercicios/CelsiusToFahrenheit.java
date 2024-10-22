@@ -1,9 +1,9 @@
 // CelsiusToFahrenheit.java
 
-// Lê uma temperatura em Celsius e converte em Fahrenheit, ao final, pergunta se deseja relaizar o processo novamente
+// Lê uma temperatura em Celsius e converte em Fahrenheit, ao final, pergunta se deseja realizar o processo novamente
 
 
-import java.util.Scanner; // Utiliza Scanner;
+import java.util.Scanner; // Utiliza Scanner
 import java.util.Locale; // Utiliza Locale
 
 public class CelsiusToFahrenheit {
@@ -35,7 +35,7 @@ public class CelsiusToFahrenheit {
             opc = sc.nextLine().charAt(0);
 
         } while (opc == 's');
-        
+
         sc.close(); // encerra objeto scanner
 
     } // fim da main
