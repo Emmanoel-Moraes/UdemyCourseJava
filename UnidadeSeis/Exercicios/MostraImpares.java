@@ -26,6 +26,8 @@ public class MostraImpares {
             }
         }
 
+        sc.close(); // encerra objeto Scanner
+
     } // fim da main
 
 } // fim da classe MostraImpares
