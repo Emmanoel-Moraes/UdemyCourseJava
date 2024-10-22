@@ -30,4 +30,4 @@ public class CalculaDivisores {
 
     } // fim da main
 
-} // fimd a classe CalculaDvisores
+} // fim da classe CalculaDvisores
