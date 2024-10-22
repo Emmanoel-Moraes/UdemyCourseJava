@@ -35,8 +35,7 @@ public class CelsiusToFahrenheit {
             opc = sc.nextLine().charAt(0);
 
         } while (opc == 's');
-
-
+        
         sc.close(); // encerra objeto scanner
 
     } // fim da main
