@@ -41,6 +41,6 @@ public class Funcoes {
             maior  = c;
 
         return maior;
-    } 
+    }
 
 } // fim da classe Funcoes
