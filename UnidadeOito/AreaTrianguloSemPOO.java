@@ -39,9 +39,9 @@ public class AreaTrianguloSemPOO {
         double areaX = Math.sqrt(pX * (pX - aX) * (pX - bX) * (pX - cX));
         double areaY = Math.sqrt(pY * (pY - aY) * (pY - bY) * (pY - cY));
 
-        // Exibe áreasde X e Y
+        // Exibe áreas de X e Y
         System.out.printf("Triangle X area: %.4f\n",areaX);
-        System.out.printf("Triangle X area: %.4f\n",areaY);
+        System.out.printf("Triangle Y area: %.4f\n",areaY);
 
         // Exibindo o triângulo que possui maior área
         if (areaX > areaY)
@@ -53,7 +53,7 @@ public class AreaTrianguloSemPOO {
 
         sc.close(); // encerra objeto scanner
 
-        
+
     } // fim da main
 
 } // fim da classe AreaTrianguloSemPOO
