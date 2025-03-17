@@ -1,31 +1,36 @@
-package org.udemy.UnidadeOito.Rectangle; // pertence ao package org.udemy.UnidadeOito.Rectangle
+package org.udemy.UnidadeOito.Exercicios; // pertence ao package org.udemy.UnidadeOito.Rectangle
 
 // Rectangle.java
 
+// Classe Rectangle com atributos width (largura), height (altura) e métodos Area(), Perimeter() e Diagonal()
+
+import java.math.*;
 
 
 public class Rectangle {
 
-    private double width;
-    private double  heigth;
+    public double width;
+    public double  height;
 
 
-
-    // Construtor com parâmetros
-    public Rectangle (double width, double  heigth){
-        this.width = width;
-        this.heigth = heigth;
-    }
-
-
+    //  Metodo para retornar área  do retangulo
     public double  Area(){
 
-        return 
+        return width * height;
     }
 
 
+    // Método para  retornar perímetro do retângulo
+    public double Perimeter(){
+
+        return 2  * width + 2 * height;
+    }
 
 
+    // Método para  retornar diagonal do retângulo
+    public double Diagonal() {
 
+        return Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2));
+    }
 
 }

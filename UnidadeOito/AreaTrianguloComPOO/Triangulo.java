@@ -53,9 +53,8 @@ public class Triangulo {
     }
 
     // Metodo get para c
-    public double getC (){
-        return c;
-    }
+    public double getC () {return c;}
+
 
     // Calcula área e retorna
     public double areaTriangulo (){
