@@ -17,7 +17,7 @@ public class Employee {
 
     public void IncreaseSalary (double percentage){
 
-        grossSalary = grossSalary * percentage / 100 + NetSalary();
+        grossSalary = grossSalary * percentage / 100 + NetSalary() + tax;
     }
 
 
